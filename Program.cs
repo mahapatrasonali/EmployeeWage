@@ -2,10 +2,12 @@
 {
     class Program
     {
-        public static void Main(string[] args)
+        public  void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation Problem");
-            EmployeeCheck.CheckAttendence();
+            
+            
+            EmployeeCheck employeeCheck = new EmployeeCheck();
+            employeeCheck.CheckAttendence();
         }
     }
 }
